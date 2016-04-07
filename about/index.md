@@ -10,16 +10,17 @@ image:
   creditlink: http://www.facebook.com/philip.pettican.5
 ---
 
-PettiBlog is all about communicating the right kind of information about science and society.
+PettiBlog is about communicating the right kind of information about science with a personal touch.
 
 ## PettiBlog is all about:
 
-* Exposing the biggest myths and misconceptions about science in general.
-* Communicating the newest discoveries and facts that can be applied to one's lifestyle.
+* Exposing myths and misconceptions about science in general.
+* Communicating the best facts that can be applied to one's lifestyle.
 * Advice and information about fitness and healthy eating.
 * Insights into the mind and how certain techniques can improve one's life.
 * A travel section talking about new and different places visited.
-* Support for comments
+* A personal blog section, an insight into my life.
+* Support for comments.
 
 #### Visit my main website
 
