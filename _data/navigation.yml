@@ -1,16 +1,23 @@
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Science"
+    url: /posts/science/
+
+  - title: "Tech"
+    url: /posts/tech/
+
+  - title: "Business"
+    url: /posts/business/
+
+  - title: "Personal"
+    url: /posts/personal/
+
+#  - title: "Categories"
+#    url: /posts-archive/
+# need to make page with grid view with all 4 categories
+
+  - title: "Collections"
+    url: /portfolio/
 
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/
-
-  - title: "Sample Posts"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
-
-  - title: "Sample Pages"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
-
-  - title: "Sample Collections"
-    url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
+    url: /about/
