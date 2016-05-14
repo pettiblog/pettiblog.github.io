@@ -1,23 +1,22 @@
 # main links links
 main:
   - title: "Science"
-    url: /posts/science/
+    url: /science/
 
   - title: "Tech"
-    url: /posts/tech/
+    url: /tech/
 
   - title: "Business"
-    url: /posts/business/
+    url: /business/
 
   - title: "Personal"
-    url: /posts/personal/
+    url: /personal/
 
-#  - title: "Categories"
-#    url: /posts-archive/
-# need to make page with grid view with all 4 categories
+  - title: "Posts"
+    url: /year-archive/
 
   - title: "Collections"
-    url: /portfolio/
+    url: /collections/
 
   - title: "About"
     url: /about/
