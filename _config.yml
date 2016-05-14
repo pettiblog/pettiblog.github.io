@@ -72,9 +72,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "PettiTweets"
 facebook:
-  username               :
+  username               : "evil.science.guy"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -111,12 +111,12 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "evil.science.guy"
+  facebook         : "nicolas.pettican"
   foursquare       :
   github           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "nickpettican"
   lastfm           :
   linkedin         : "nickpettican"
   pinterest        :
