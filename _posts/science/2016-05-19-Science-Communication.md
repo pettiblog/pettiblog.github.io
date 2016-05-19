@@ -31,13 +31,13 @@ The way the science is usually transmitted from the scientists to the media and 
 
 ## Science communication: a definition
 
-However, do not get the wrong idea: science communication is not just a field that encourages researchers to talk more about their work. In fact [Burns et al., 2003][defineterms] **defines scientific communication** as *“the use of appropriate skills, media, activities, and dialogue to produce one or more of the following personal responses to science:*
+However, do not get the wrong idea: science communication is not just a field that encourages researchers to talk more about their work. In fact [Burns et al., 2003][defineterms] **defines scientific communication** as *"the use of appropriate skills, media, activities, and dialogue to produce one or more of the following personal responses to science:*
 
-* Awareness, including familiarity with new aspects of science
-* Enjoyment or other affective responses, e.g. appreciating science as entertainment
-* Interest, as evidenced by voluntary involvement with science or its communication
-* Opinions, the forming, reforming, or confirming of science-related attitudes
-* Understanding of science, its contents, processes, and social factors
+* *Awareness, including familiarity with new aspects of science*
+* *Enjoyment or other affective responses, e.g. appreciating science as entertainment*
+* *Interest, as evidenced by voluntary involvement with science or its communication*
+* *Opinions, the forming, reforming, or confirming of science-related attitudes*
+* *Understanding of science, its contents, processes, and social factors"*
 
 Scientific communication done properly can therefore create public interest in science, confidence to talk about it and ultimately increase public engagement. It is no mystery that with the dawn of social media and increased visual stimulation our latest generation (in which I am included) are losing their attention span. In fact, by now I guess you have realised that **this article is directed more towards the scientific community**, or those who are part of the “scientific culture” given its literacy. By “scientific culture” I mean those who are active scientists, qualified as such or people who, like Elise Andrew (founder of the [IFLS blog][IFLS]), have little background in scientific disciplines yet actively engage in science communication.
 
