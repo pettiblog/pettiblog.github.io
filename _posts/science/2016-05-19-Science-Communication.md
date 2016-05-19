@@ -56,9 +56,9 @@ Science communication provides a bridge between science and the public, to remed
 
 ## The future of science communication
 
-However, as it is 2016, news does not exclusively come from media anymore, it also comes from social media. I am talking of course about platforms such as Facebook, Twitter, Instagram and of course YouTube. I cannot stress enough how important social media has become when it comes to science communication. In fact it has enabled the scientific community and the scientific culture to connect directly with the general public. Websites such as [IFLScience][IFLS], YouTube channels such as [asapSCIENCE][asap], [Kurzgesagt][nutshell], [SmarterEveryDay][smart], [MinutePhysics][minute] and many others are doing (in my opinion) a fantastic job in communicating science in an easily digestible way reaching millions. Their success is due to this type of science communication being done visually, which I think is the best suited for the contemporary public, especially for the youngest generation. 
+However, as it is 2016, news does not exclusively come from media anymore, it also comes from social media. I am talking of course about platforms such as Facebook, Twitter, Instagram and of course YouTube. I cannot stress enough how important social media has become when it comes to science communication. In fact it has enabled the scientific community and scientific culture to connect directly with the general public. Websites such as [IFLScience][IFLS], YouTube channels such as [asapSCIENCE][asap], [Kurzgesagt][nutshell], [SmarterEveryDay][smart], [MinutePhysics][minute] and many others are doing (in my opinion) a fantastic job in communicating science in an easily digestible way reaching millions. Their success is due to this type of science communication being done visually, which I think is the best suited for the contemporary public, especially for the youngest generation. 
 
-Unfortunately, the subsequent generations are not as involved in social media, and still obtain most of their information from the news media. This is still an issue, as Claus Madsen put it: *“The majority of stories in the television evening news arise as a result of media placement. In science we are not good enough in this area”*. 
+Unfortunately, the subsequent generations are not as involved in social media, and still obtain most of their information from the news media. The issue here, as Claus Madsen puts it, is that *“The majority of stories in the television evening news arise as a result of media placement. In science we are not good enough in this area”*. If we are to reach these generations we must work on our ability to communicate our science. Luckily, science communication is now [starting][core] to be considered a core professional skill that all scientists must have. In fact, there are many [training opportunities][training] available to those who want to develop effective commination skills.
 
 Thus, it is my firm opinion that it is up to us, the scientific community and scientific culture, to actively engage in scientific communication through all possible means of communication. Just like many have already taken the initiative through visual and engaging content, many of us should follow. Science communication is not just important to acquire more funding to continue its advancement but it is vital for the public to be well informed about what they are going to vote for when it comes to global decisions in which science is needed to tackle global issues.
 
@@ -74,6 +74,6 @@ Thus, it is my firm opinion that it is up to us, the scientific community and sc
 [nutshell]: https://www.youtube.com/user/Kurzgesagt
 [smart]: https://www.youtube.com/user/destinws2
 [minute]: https://www.youtube.com/channel/UCUHW94eEFW7hkUMVaZz4eDg
-
-
+[core]: http://compassblogs.org/blog/2013/04/01/gradscicomm-how-compass-is-answering-the-national-demand-for-science-communication-training/
+[training]: http://compassblogs.org/gradscicomm-list/
 
