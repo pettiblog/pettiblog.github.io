@@ -2,7 +2,7 @@
 title: "Science Communication: Why Is It Important?"
 author: nicolas
 excerpt: "Science Communication - Why Is It Important?"
-modified: 2016-05-23
+modified: 2016-06-23
 category: science
 header: 
   image: science_communication.jpg
