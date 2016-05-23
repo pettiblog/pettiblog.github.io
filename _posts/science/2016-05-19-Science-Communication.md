@@ -5,9 +5,9 @@ excerpt: "Science Communication - Why Is It Important?"
 modified: 2016-06-19
 category: science
 header: 
-  image:
-  caption:
-  teaser:
+  image: science_communication.jpg
+  caption: "Image credit: **[Nicolas Pettican Perez](http://nicolaspettican.com)**"
+  teaser: bulb.jpg
 image:
   feature:
   credit:
