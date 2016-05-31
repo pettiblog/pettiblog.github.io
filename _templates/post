@@ -1,10 +1,14 @@
 ---
-layout: {{ layout }}
-title: {{ title }}
-modified:
-categories: {{ dir }}
-excerpt:
-tags: []
+title: 
+author: 
+excerpt: 
+modified: 
+category: 
+header: 
+  image: 
+  caption: 
+  teaser: 
 image:
   feature:
+  credit:
 ---
