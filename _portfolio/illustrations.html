@@ -1,0 +1,19 @@
+---
+layout: archive
+title: "Illustrations"
+permalink: /portfolio/illustrations/
+author_profile: false
+header:
+  teaser: science_icons/earth_03.jpg
+sidebar:
+  - title: "My illustrations"
+    image: science_icons/earth_03.jpg
+---
+
+{% include base_path %}
+
+<div class="grid__wrapper">
+  {% for post in site.illustrations %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
