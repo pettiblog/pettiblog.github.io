@@ -15,8 +15,8 @@ main:
   - title: "Posts"
     url: /year-archive/
 
-  - title: "Collections"
-    url: /collections/
+  - title: "Portfolio"
+    url: /portfolio/
 
   - title: "About"
     url: /about/

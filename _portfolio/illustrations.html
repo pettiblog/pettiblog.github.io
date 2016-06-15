@@ -1,19 +1,35 @@
 ---
 layout: archive
 title: "Illustrations"
+excerpt: "Illustrations designed using Illustrator and used for animated shorts."
 permalink: /portfolio/illustrations/
 author_profile: false
 header:
   teaser: science_icons/earth_03.jpg
 sidebar:
   - title: "My illustrations"
+    text: "Created using Illustrator CC and used for animated shorts."
     image: science_icons/earth_03.jpg
 ---
 
 {% include base_path %}
-
+{% include group-by-array collection=site.portfolio field="categories" %}
 <div class="grid__wrapper">
+
+{% for category in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  {% for post in site.portfolio %}
+    {% if category == 'illustrations' %}
+      {% include archive-single.html type="grid" %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<p>&#9883; Oops, a little bit of a mix up here. Not to worry, I'm working on it &#9883;</p>
+</div>
+
+<!--<div class="grid__wrapper">
   {% for post in site.illustrations %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
-</div>
+</div>-->
