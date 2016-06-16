@@ -1,0 +1,21 @@
+---
+layout: archive
+title: "Code"
+excerpt: "Scripts I have developed throughout my Master's or in my free time."
+permalink: /portfolio/code/
+author_profile: false
+header:
+  teaser: type-writter.jpg
+sidebar:
+  - title: "My code"
+    text: "Scripts I have developed throughout my Master's or in my free time."
+    image: type-writter.jpg
+---
+
+{% include base_path %}
+
+<div class="grid__wrapper">
+  {% for post in site.code %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>

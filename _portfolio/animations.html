@@ -1,0 +1,21 @@
+---
+layout: archive
+title: "Animations"
+excerpt: "Animated shorts made by using illustrations created in Illustrator and animated using After Effects."
+permalink: /portfolio/animations/
+author_profile: false
+header:
+  teaser: science_icons/just_rick_crop.jpg
+sidebar:
+  - title: "My animations"
+    text: "Animated shorts made by using illustrations created in Illustrator and animated using After Effects."
+    image: science_icons/just_rick_crop.jpg
+---
+
+{% include base_path %}
+
+<div class="grid__wrapper">
+  {% for post in site.animations %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>

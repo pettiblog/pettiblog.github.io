@@ -29,7 +29,16 @@ comments:
 collections:
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:portfolio/:path/
+  illustrations:
+    output: true
+    permalink: /:portfolio/:illustrations/:path/
+  animations:
+    output: true
+    permalink: /:portfolio/:animations/:path/
+  code:
+    output: true
+    permalink: /:portfolio/:code/:path/
 
 defaults:
   # _posts
