@@ -2,7 +2,7 @@
 title: "My first animations"
 excerpt: "Just some short animations I did when I first started animating."
 header:
-  teaser: science_icons/just_rick_crop.jpg
+  teaser: rick_cool_profile_teaser.gif
 sidebar:
   - title: "My first animations"
     image: rick_cool_profile_smaller.gif
