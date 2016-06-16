@@ -32,13 +32,13 @@ collections:
     permalink: /:portfolio/:path/
   illustrations:
     output: true
-  #  permalink: /:portfolio/:illustrations/:path/
+    permalink: /:portfolio/:illustrations/:path/
   animations:
     output: true
-  #  permalink: /:portfolio/:animations/:path/
+    permalink: /:portfolio/:animations/:path/
   code:
     output: true
-  #  permalink: /:portfolio/:code/:path/
+    permalink: /:portfolio/:code/:path/
 
 defaults:
   # _posts
