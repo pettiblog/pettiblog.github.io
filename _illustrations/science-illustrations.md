@@ -46,7 +46,14 @@ feature_row3:
 {% include feature_row id="feature_row3" %}
 
 <center>
-<figure style="width: 80%" >
+<figure style="width: 100%" class="half">
   <img src="{{ site.url }}/images/science_icons/person.jpg" alt="" align="middle">
+  <img src="{{ site.url }}/images/science_icons/sequencing.jpg" alt="" align="middle">
 </figure>
 </center>
+
+<!--<center>
+<figure style="width: 100%">
+  <img src="{{ site.url }}/images/science_icons/linkedin_background.png" alt="" align="middle">
+</figure>
+</center>-->
