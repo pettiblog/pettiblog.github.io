@@ -1,6 +1,7 @@
 ---
 title: "Science Communication Illustrations"
 excerpt: "Illustrations used for science communication animated shorts."
+layout: page
 header:
   image: science_icons/science_communication.jpg
   teaser: science_icons/pc_DNA.jpg
