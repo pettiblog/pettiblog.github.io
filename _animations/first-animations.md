@@ -9,4 +9,9 @@ sidebar:
     text: "Just some short animations I did when I first started animating."
 ---
 
-Test
+## PettiDraws intro clip
+
+<video width="100%" height="100%" controls>
+  <source src="intro_watermarked.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
