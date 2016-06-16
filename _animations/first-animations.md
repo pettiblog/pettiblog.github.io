@@ -5,7 +5,7 @@ header:
   teaser: science_icons/just_rick_crop.jpg
 sidebar:
   - title: "My first animations"
-    image: rick_cool_profile.gif
+    image: rick_cool_profile_smaller.gif
     text: "Just some short animations I did when I first started animating."
 ---
 
