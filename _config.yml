@@ -32,13 +32,13 @@ collections:
     permalink: /:portfolio/:path/
   illustrations:
     output: true
-  #  permalink: /:illustrations/:path/
+    permalink: /:illustrations/:path/
   animations:
     output: true
-  #  permalink: /:animations/:path/
+    permalink: /:animations/:path/
   code:
     output: true
-  #  permalink: /:code/:path/
+    permalink: /:code/:path/
 
 defaults:
   # _posts
@@ -68,6 +68,30 @@ defaults:
   - scope:
       path: ""
       type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _illustrations
+  - scope:
+      path: ""
+      type: illustrations
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _animations
+  - scope:
+      path: ""
+      type: animations
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _code
+  - scope:
+      path: ""
+      type: code
     values:
       layout: single
       author_profile: false
