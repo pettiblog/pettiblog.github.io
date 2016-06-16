@@ -7,7 +7,7 @@ header:
 sidebar:
   - title: "Science Communication"
     image: science_icons/just_rick_crop.jpg
-    text: "Illustrations used for my animations for science communication. Created by author using Adobe Illustrator."
+    text: "Illustrations used for my animations for science communication. Created by using Adobe Illustrator."
 ---
 
 Test
