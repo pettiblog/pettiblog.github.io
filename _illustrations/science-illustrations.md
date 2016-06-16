@@ -1,5 +1,6 @@
 ---
 title: "Science Communication Illustrations"
+permalink: /portfolio/illustrations/science/
 excerpt: "Illustrations used for science communication animated shorts."
 layout: page
 header:
