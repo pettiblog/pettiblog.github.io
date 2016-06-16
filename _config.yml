@@ -29,7 +29,7 @@ comments:
 collections:
   portfolio:
     output: true
-  #  permalink: /:portfolio/:path/
+    permalink: /:portfolio/:path/
   illustrations:
     output: true
   #  permalink: /:illustrations/:path/
