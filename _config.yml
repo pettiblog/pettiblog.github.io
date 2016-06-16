@@ -30,14 +30,14 @@ collections:
   portfolio:
     output: true
     permalink: /:portfolio/:path/
-  #illustrations:
-  #  output: true
+  illustrations:
+    output: true
   #  permalink: /:portfolio/:illustrations/:path/
-  #animations:
-  #  output: true
+  animations:
+    output: true
   #  permalink: /:portfolio/:animations/:path/
-  #code:
-  #  output: true
+  code:
+    output: true
   #  permalink: /:portfolio/:code/:path/
 
 defaults:
