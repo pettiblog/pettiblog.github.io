@@ -106,6 +106,8 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : "PettiTweets"
+instagram:
+  username               : "nickpettican"
 facebook:
   username               : "nicolas.pettican"
   app_id                 :
@@ -136,11 +138,11 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Nicolas Pettican"
-  avatar           : "bio.jpg"
-  bio              : "Evil, artistic and bilingual data and life scientist (a.k.a. Nikipedia) who can lift, code, get shit done and make you laugh!"
+  avatar           : "guy_white.gif"
+  bio              : "Evil, artistic and bilingual data and life scientist (a.k.a. Nikipedia) who can lift, code, get things done and make you laugh!"
   location         : "Manchester, UK"
-  email            : #"nicolaspettican@gmail.com"
-  uri              :
+  email            : "nicolaspettican@gmail.com"
+  url              : #"http://www.nicolaspettican.com"
   bitbucket        :
   codepen          :
   dribbble         :

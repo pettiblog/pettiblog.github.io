@@ -1,20 +1,20 @@
 ---
-title: "My Python scripts"
-excerpt: "Just some Python I developed in my spare time."
+title: "My Python minigame"
+excerpt: "Just a simple noughts and crosses game."
 header:
   teaser: python.png
 sidebar:
-  - title: "My Python scripts"
+  - title: "My Python minigame"
     image: python.png
-    text: "Just some Python scripts I developed in my spare time."
+    text: "Just a simple noughts and crosses game written in Python 2.7."
 comments: true
 ---
 
-I am a bit busy at the moment so I could only upload this script because the rest are in my desktop.
-
 ## TresEnRaya
 
-"Tres En Raya" a.k.a. "noughts and crosses" or "tic tac toe" is a fun and quick game to play. Although this script was not quick to write at all! It is not perfect, and works only on the terminal, but it works. For a better experience I would recommend running it in iPython (jupyter notebook).
+I've always been curious as to the process of designing games using code, so while I was learning Python I decided to try out a simple one!
+
+"Tres En Raya" a.k.a. "noughts and crosses" or "tic tac toe" is a fun and quick game to play. It is not perfect, and works only on the terminal, but it works! You're free to download the code and try it out for yourself. There is barely any commenting as the names of the functions are quite self-explanatory. For a better experience I would recommend running it in iPython (jupyter notebook).
 
 ```python
 #!/usr/bin/python
@@ -95,6 +95,7 @@ def replay():
 
 print ("Welcome to TRES EN RAYA!")
 # to continually run the game until something is False:
+# bellow is the actual "motor" of the game, a big while loop!
 while True:
     
     theBoard = [' ']*10
@@ -153,10 +154,6 @@ while True:
     if not replay():
         break
 ```
-
-## Other projects
-
-I am mainly using Python at the moment to analyse data (JSON, XML, CSV, XLSX, etc). I will upload my scripts once I get the chance.
 
 ## Future projects
 
