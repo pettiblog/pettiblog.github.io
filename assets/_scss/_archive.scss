@@ -35,19 +35,7 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
-
-  a + a {
-    opacity: 0.5;
-  }
-}
-
-// remove border
-.page__content {
-
-  .archive__item-title {
-    margin-top: 1em;
-    border-bottom: none;
-  }
+  font-size: $type-size-5;
 }
 
 .archive__item-excerpt {
@@ -67,7 +55,7 @@
   }
 }
 
-.archive__item:hover {
+a:hover {
   .archive__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
@@ -161,6 +149,7 @@
 
   @include breakpoint($small) {
     margin-bottom: 0;
+    text-align: center;
     @include gallery(4 of 12);
 
     .feature__item-teaser {
@@ -169,8 +158,14 @@
     }
   }
 
+  .archive__item-body {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
   &--left {
     @include full();
+    // margin-bottom: 2em;
     font-size: 1.25rem;
 
     .archive__item-teaser {
@@ -192,6 +187,7 @@
 
   &--right {
     @include full();
+    // margin-bottom: 2em;
     font-size: 1.25rem;
 
     .archive__item-teaser {
@@ -215,6 +211,7 @@
 
   &--center {
     @include full();
+    // margin-bottom: 2em;
     font-size: 1.25rem;
 
     .archive__item-teaser {
