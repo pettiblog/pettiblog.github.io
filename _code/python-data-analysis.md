@@ -12,9 +12,178 @@ comments: true
 
 {% include toc title="Overview" icon="file-text" %}
 
+I recently took a [nanodegree with Udacity](https://www.udacity.com/course/data-analyst-nanodegree--nd002) to "become a Data Analyst", as they say. It was great though, I really got to work on my Python programming skills and use it to analyse different types of data. Sadly most of the assignments had me write very specific scripts that cannot be used for anything else. So I thought I would write my own (more promiscuous) Python scripts and showcase them on this page. Feel free to use them, modify them or hang them in a picture frame on your wall. Jokes aside though, leave a comment or [email](mailto:nicolaspettican@gmail.com) me if you would like to collaborate on a little project I mention on this page or to modify any of the scripts, as they are still not on GitHub (but will be soon).
+
 ## CSV data
 
+First off, of course, is the CSV format. The CSV format is the most common import and export format for datasets, spreadsheets and other databases. It basically contains rows, each with columns that are usually separated by commas. It's fairly straitforward to import and export these files in Python even without the csv module:
+
+```python
+
+import os
+
+DATADIR = raw_input("\nCSV file directory: ")
+DATAFILE = raw_input("\nCSV file name: ")
+
+def import_file(datafile):
+    data = []
+    with open(datafile, "r") as f:
+        header = f.readline().split(",")
+        for line in f:
+            fields = line.split(",")
+            entry = {}
+            for i, value in enumerate(fields):
+                entry[header[i].strip()] = value.strip()
+
+            data.append(entry)
+
+        return data
+
+def main():
+    datafile = os.path.join(DATADIR, DATAFILE)
+    data = import_file(datafile)
+
+# "data" now contains the information from the csv
+
+```
+
+And things get even easier if you use the csv module!
+
+```python
+
+import csv
+import os
+
+DATADIR = raw_input("\nCSV file directory: ")
+DATAFILE = raw_input("\nCSV file name: ")
+
+def import_file(datafile):
+    data = []
+    with open(datafile, "rb") as f:
+	reader = csv.reader(f, delimiter="\t")
+        header = f.next().split(",")
+        for row in f:
+            line = row.split(",")
+            data.append(entry)
+
+        return data
+
+def main():
+    datafile = os.path.join(DATADIR, DATAFILE)
+    data = import_file(datafile)
+
+# "data" now contains the information from the csv
+
+if __name__ == "__main__":
+    main()
+
+```
+
 ## Excel data
+
+Oh Excel, trying to make our lives easier when it comes to analysing data... Well, it is quite a good program to use as a support for datasets, you can move data around easily and even do some simple statistics. However, it can easily mess up data fields and programming analysis can be complicated and ineffective compared to R, for example. Either way a lot of information is stored in these sheets, and if you want to take that data and analyse it as a CSV, what do you do? You use my Python script of course! For now it can convert your Excel sheet into a CSV. Soon enough however, it will be able to do much more, by using R from within. Interested in collaborating? Drop me an [email <i class="fa fa-send"></i>](mailto:nicolaspettican@gmail.com) !
+
+```python
+
+#!/usr/bin/env python
+
+import xlrd
+import os
+from os.path import join, dirname, abspath, isfile
+import csv
+import sys
+
+# Optional to include the directory
+# DATADIR = raw_input("\nXLS file directory: ")
+# DATAFILE = raw_input("\nXLS file name: ")
+
+datafile = raw_input("\nImport XLS file: ")
+outfile = raw_input("\nOutput CSV name: ")
+
+# import the Excel file, of course
+def import_file(datafile):
+    if not isfile(datafile):
+        print "\nGreat Scott! Where's the file?\n"
+    workbook = xlrd.open_workbook(datafile)
+    if len(workbook.sheet_names()) > 1:
+        print "There are %s sheets: " % len(workbook.sheet_names())
+        i = 1
+        for n in workbook.sheet_names():
+            print i,
+            print n
+            i += 1
+        sh = which_sheet()
+        sheet = workbook.sheet_by_index(sh)
+    else:
+        sheet = workbook.sheet_by_index(0)
+    return sheet
+
+# give the user the chance to choose the sheet 
+def which_sheet():
+    pynum = input("\nChoose sheet number: ")
+    num = pynum - 1
+    return num
+
+# show the user the data to verify it worked
+def show_data(data):
+    print "\nThis is what the header looks like: \n"
+    header = [data.cell(0, col_index).value for col_index in xrange(data.ncols)]
+    print header
+    return header
+
+# save the file as CSV
+def save_file(data, filename):
+    with open(filename, "w") as f:
+        w = csv.writer(f, quoting=csv.QUOTE_ALL)
+        for rownum in xrange(data.nrows):
+            w.writerow(data.row_values(rownum))
+        
+    print "\nSaved as %s\n" % filename
+
+# yes/no question to save the file as CSV
+# user might want to analyse the file more
+def save(default="yes"):
+    question = "\nSave as CSV now?\n"
+    valid = {"yes": True, "y": True, "ye": True,
+            "no": False, "n": False}
+    if default is None:
+        prompt = " [y/n] "
+    elif default == "yes":
+        prompt = " [Y/n] "
+    elif default == "no":
+        prompt = " [y/N] "
+    else:
+        raise ValueError("Invalid answer: '%s'" % default)
+    
+    while True:
+        sys.stdout.write(question + prompt)
+        choice = raw_input().lower()
+        if default is not None and choice == '':
+            return valid[default]
+        elif choice in valid:
+            return valid[choice]
+        else:
+            sys.stdout.write("Please respond with 'yes' or 'no' "
+                             "(or 'y' or 'n').\n")
+
+def main():
+    # optional to include directory
+    #datafile = os.path.join(DATADIR, DATAFILE)
+    data = import_file(datafile)
+    header = show_data(data)
+    if save():
+        save_file(data, outfile)
+    
+    # bellow this I am thinking of continuing it
+    # to analyse the file even more
+    # maybe include the R module for some stats
+        
+if __name__ == "__main__":
+    main()
+
+```
+
+It's quite unfinished, but for now at least it can convert Excel sheets to CSV files. To be honest those functions are a small part of the bulk of the code. Specifically just the import_file() and save_file() functions would do the trick, the rest is just for some better user-interface. Perhaps I should invest some time into trying to compact the code. What do you think? Is it working for you? Let me know in the comments.
 
 ## JSON data
 
@@ -118,6 +287,14 @@ if __name__ == '__main__':
 
 ## XML data
 
+Comming soon <i class="fa fa-rocket"></i>
+
 ## HTML data
 
+Comming soon <i class="fa fa-list-alt"></i>
+
 ## Cleaning up
+
+Comming soon <i class="fa fa-hand-spock-o"></i>
+
+
