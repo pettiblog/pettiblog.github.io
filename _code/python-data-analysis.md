@@ -16,7 +16,7 @@ I recently took a [nanodegree with Udacity](https://www.udacity.com/course/data-
 
 ## CSV data
 
-First off, of course, is the CSV format. The CSV format is the most common import and export format for datasets, spreadsheets and other databases. It basically contains rows, each with columns that are usually separated by commas. It's fairly straitforward to import and export these files in Python even without the csv module:
+First off, of course, is the CSV format. The CSV format is the most common import and export format for datasets, spreadsheets and other databases. It basically contains rows, each with columns that are usually separated by commas. It's fairly straightforward to import and export these files in Python even without the csv module:
 
 ```python
 
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
 ## Excel data
 
-Oh Excel, trying to make our lives easier when it comes to analysing data... Well, it is quite a good program to use as a support for datasets, you can move data around easily and even do some simple statistics. However, it can easily mess up data fields and programming analysis can be complicated and ineffective compared to R, for example. Either way a lot of information is stored in these sheets, and if you want to take that data and analyse it as a CSV, what do you do? You use my Python script of course! For now it can convert your Excel sheet into a CSV. Soon enough however, it will be able to do much more, by using R from within. Interested in collaborating? Drop me an [email <i class="fa fa-send"></i>](mailto:nicolaspettican@gmail.com) !
+Oh Excel, trying to make our lives easier when it comes to analysing data... Well, it is quite a good program to use as a support for datasets; you can move data around easily and even do some simple statistics. However, it can easily mess up data fields and programming analysis can be complicated and ineffective compared to R, for example. Either way a lot of information is stored in these xls sheets, and if you want to take that data and analyse it as a CSV, what do you do? You use my Python script of course! For now it can convert your Excel sheet into a CSV. Soon enough however, it will be able to do much more, by using R from within. Interested in collaborating? Drop me an [email <i class="fa fa-send"></i>](mailto:nicolaspettican@gmail.com) !
 
 ```python
 
@@ -189,7 +189,7 @@ It's quite unfinished, but for now at least it can convert Excel sheets to CSV f
 
 JSON, or JavaScript Object Notation, is great for modelling and transmitting data as it is language independent just like XML. The data is organised into fields and values and it allows for nested objects and nested arrays. Essentially the "objects" are kind of like dictionaries in Python. If you're curious to learn more, [here](http://www.w2schools.com/json/)'s a good free tutorial I followed.
 
-When using Python, extracting JSON data is not too complicated, however you may need an API token in order to obtain the data you want. So just to keep things simple here is a script I wrote during my Udacity nanodegree. Be warned though, if you want to give it a go be aware that HTTP errors may happen, you may be lucky and have none, or be unlucky like me and have to run the script over 10 times to get it to pull all the data 😂.
+When using Python, extracting JSON data is not too complicated, however you may need an API token in order to obtain the data you want. So just to keep things simple here is a modified script I wrote during my Udacity nanodegree. Be warned though, if you want to give it a go HTTP errors may happen; you may be lucky and have none, or be unlucky like me and have to run the script over 10 times to get it to pull all the data 😂.
 
 ```python
 
@@ -200,11 +200,6 @@ import requests
 
 BASE_URL = "http://musicbrainz.org/ws/2/"
 ARTIST_URL = BASE_URL + "artist/"
-
-query_type = {  "simple": {},
-                "atr": {"inc": "aliases+tags+ratings"},
-                "aliases": {"inc": "aliases"},
-                "releases": {"inc": "releases"}}
 
 def which_artist():
     # user can choose what artist to search
