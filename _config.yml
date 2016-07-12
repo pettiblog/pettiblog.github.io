@@ -11,7 +11,7 @@ title                    : "PettiBlog"
 title_separator          : "-"
 name                     : "Nicolas Pettican Perez"
 description              : "A place where I can talk about science and society and post some of my creations and projects."
-url                      : # "http://www.pettiblog.com"
+url                      : "http://www.pettiblog.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
