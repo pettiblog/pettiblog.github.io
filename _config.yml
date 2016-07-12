@@ -112,6 +112,8 @@ facebook:
   username               : "nicolas.pettican"
   app_id                 :
   publisher              :
+linkedin:
+  username               : "nickpettican"
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -149,7 +151,7 @@ author:
   flickr           :
   facebook         : "nicolas.pettican"
   foursquare       :
-  github           :
+  github           : "nickpettican"
   google_plus      :
   keybase          :
   instagram        : "nickpettican"

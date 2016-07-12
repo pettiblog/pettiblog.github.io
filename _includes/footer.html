@@ -6,13 +6,16 @@
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
     {% if site.twitter.username %}
-      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a></li>
     {% endif %}
     {% if site.instagram.username %}
       <li><a href="https://instagram.com/{{ site.instagram.username }}"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
     {% endif %}
     {% if site.facebook.username %}
-      <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+      <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+    {% endif %}
+    {% if site.linkedin.username %}
+      <li><a href="http://linkedin.com/in/{{ site.author.username }}"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
     {% endif %}
     {% if site.author.github %}
       <li><a href="http://github.com/{{ site.author.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
