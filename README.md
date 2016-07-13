@@ -14,6 +14,10 @@ View my work on Collection. Here I will post all my illustrations, animations an
 
 ### Credits
 
+#### Theme:
+
+- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
+
 #### Icons + Demo Images:
 
 - [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
