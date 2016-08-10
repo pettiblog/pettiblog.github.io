@@ -8,7 +8,7 @@ sidebar:
     text: "Evil, artistic and bilingual data and life scientist (a.k.a. Nikipedia) who can lift, code, get things done and make you laugh!"
 ---
 
-Why hello there! Fancy seeing you here! So you want to know what this blog is about huh? Or do you want to know more about me? If you want to know more about me then go back to the [homepage](http://www.pettiblog.com) and click on "More about me" (duh!).
+Why hello there! So you want to know what this blog is about? Or do you want to know more about me? If you want to know more about me then go back to the [homepage](http://www.pettiblog.com) and click on "More about me" (of course!).
 
 In all seriousness though, I created this blog because it was kind of my childhood dream to have a website where I could publish content for the public to view. In fact, when I was 12, my friends and I started recording "funny" videos using our phones which we planned to publish on our very own website. I still have those videos 😂, they are cringe-worthy! 
 
