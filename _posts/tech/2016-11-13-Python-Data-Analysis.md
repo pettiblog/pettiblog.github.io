@@ -1,23 +1,21 @@
 ---
 title: "Data Analysis with Python"
 excerpt: "Learn the basics of Data Analysis with Python"
+modified: 2016-05-31
+category: tech
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: programming_croped.jpg
   teaser: python.png
-sidebar:
-  - title: "Data Analysis with Python"
-    image: python.png
-    text: "Learn the basics of Data Analysis with Python"
 comments: true
 ---
 
 {% include toc title="Overview" icon="file-text" %}
 
-On March 2016 I took a [Udacity Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002) to become a Python Data Analyst. I really enjoyed it, but sadly most of the assignments were about writing very specific programs that I never used. However, it did open the door to writing cooler programs that I use almost daily (like my [smart alarm clock](https://github.com/nickpettican/Alarm-Pi)!). So in this page I will show you how to analyse the most common types of data.
+On March 2016 I took a [Udacity Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002) to become a **Python Data Analyst**. I really enjoyed it, but sadly most of the assignments were about writing very specific programs that I never used. However, it did open the door to writing cooler programs that I use almost daily (like my [smart alarm clock](https://github.com/nickpettican/Alarm-Pi)!). So in this page I will show you how to analyse the most common types of data.
 
-Just a **word of caution**, for this page I am assuming you have a basic understanding of Python data types, functions and formatting.
+Just a **word of caution**, I am assuming you have a basic understanding of Python data types, functions and formatting. If not be sure to check out [Derek Banas's video](https://www.youtube.com/watch?v=N4mEzFDjqtA) on Python programming to learn some of the basics.
 
 ## CSV data
 
@@ -439,4 +437,4 @@ But before you go on to create your own Google alternative (yes, Google is a web
 
 And there you have it, the basics of Data Analysis with Python. Granted I didn't actually cover Data Cleaning, which will be included in my next article! 
 
-Gracias <i class="fa fa-hand-peace-o"></i>
+Gracias <i class="fa fa-hand-peace-o"></i>!

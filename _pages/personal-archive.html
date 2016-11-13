@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Personal Blog"
-permalink: /personal/
+title: "Thoughts"
+permalink: /thoughts/
 author_profile: false
 ---
 
@@ -12,7 +12,7 @@ author_profile: false
 {% for category in group_names %}
   {% assign posts = group_items[forloop.index0] %}
   {% for post in posts %}
-    {% if category == 'personal' %}
+    {% if category == 'thoughts' %}
       {% include archive-single.html type="grid" %}
     {% endif %}
   {% endfor %}

@@ -11,6 +11,7 @@ header:
 image:
   feature:
   credit:
+comments: true
 ---
 
 Desktop virtualization software such as **[VMware][vmware]** and **[Oracle VirtualBox][oracle]** lets you install and run multiple Operating Systems (OS) on your PC while your host OS remains undisturbed. If you have a Windows OS but you want to use Linux or Mac without having to go through the fuss of setting up [dual boot][dualboot], a virtual environment may be the best choice for you. It's actually very quick and easy!

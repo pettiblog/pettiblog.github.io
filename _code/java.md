@@ -1,16 +1,16 @@
 ---
-title: "My Java program"
+title: "My Java Program"
 excerpt: "My one and only Java program."
 header:
   teaser: java.png
 sidebar:
-  - title: "My Java program"
+  - title: "My Java Program"
     image: java.png
     text: "My one and only Java program."
 comments: true
 ---
 
-This is the only Java program I have made to date. I am not a big fan of the language, in fact I much prefer Python or a C language. Nevertheless, Java is still a widely used language and so I will eventually go back to it and write more programs.
+This is the only Java program I have made to date. I am not a big fan of the language, in fact I much prefer Python or a C language. Nevertheless, Java is still a widely used language and so I might eventually go back to it and write more programs.
 
 ## PPINet
 

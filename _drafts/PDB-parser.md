@@ -1,6 +1,6 @@
 ---
-title: "PDB-parser"
-excerpt: "To parse and modify a PDB with Python"
+title: "PDB-Parser"
+excerpt: "To parse and modify a Protein Structure file (PDB) with Python"
 header:
   teaser: python.png
 sidebar:
@@ -10,13 +10,11 @@ sidebar:
 comments: true
 ---
 
-The PDB parser could have gone under the "Data Analysis" page, but I think it deserves a page of it's own! 
-
 PDB is not my favourite format. In fact its kind of special in that every single white space is important. So forget about importing it into Python, modifying it, and outputting each column separated by a tab. It will not work. In fact I have to mainting all the white spaces in order to keep the PDB intact. Why can't biologists just use something easier to manipulate...? :expressionless:
 
 I created this parser in order to modify some characters that are repeated throughout the PDB file. Why do I need this? Because despite all the scientific advancements, there still isn't a straightforward way to e.g. add specific glycans to specific residues in a protein. You kind of have to play around with it. And that can create PDB files that need to be modified.
 
-I started this script on the 2nd of August, and I am still updating it :facepunch:. It started off as having one function: to change certain characters across the PDB, and now I added functions that can convert user-chosen ATOM elements to HETATM and vice-versa. My next feat will be to add the function of changing entire columns if e.g. the order of residues or atoms is wrong or broken and needs mending. Be sure to check it out [on Github!](https://github.com/nickpettican/PDB-parse) and give it a star :star:. So, without further ado, here is my latest creation:
+It started off as having one function: to change certain characters across the PDB, and now I added functions that can convert user-chosen ATOM elements to HETATM and vice-versa. My next feat will be to add the function of changing entire columns if e.g. the order of residues or atoms is wrong or broken and needs mending. Be sure to check it out [on Github!](https://github.com/nickpettican/PDB-parse) and give it a star :star:.
 
 ```python
 #!/usr/bin/env python

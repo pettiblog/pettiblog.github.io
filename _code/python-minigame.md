@@ -1,10 +1,10 @@
 ---
-title: "My Python minigame"
+title: "My Python Minigame"
 excerpt: "Just a simple noughts and crosses game."
 header:
   teaser: python.png
 sidebar:
-  - title: "My Python minigame"
+  - title: "My Python Minigame"
     image: python.png
     text: "Just a simple noughts and crosses game written in Python 2.7."
 comments: true
@@ -14,13 +14,13 @@ comments: true
 
 I've always been curious as to the process of designing games using code, so while I was learning Python I decided to try out a simple one!
 
-"Tres En Raya" a.k.a. "noughts and crosses" or "tic tac toe" is a fun and quick game to play. It is not perfect, and works only on the terminal, but it works! You're free to download the code and try it out for yourself. There is barely any commenting as the names of the functions are quite self-explanatory. For a better experience I would recommend running it in iPython (jupyter notebook).
+"Noughts and crosses" or "tic tac toe" is a fun and quick game to play. It is not perfect, and works only on the terminal. But it does it's job. Try it out for yourself! There is barely any commenting as the names of the functions are quite self-explanatory. For a better experience I would recommend running it in iPython or jupyter notebook.
 
 ```python
 #!/usr/bin/python
 
+import random
 from __future__ import print_function
-
 from IPython.display import clear_output
 
 def display_board(board):
@@ -63,7 +63,6 @@ def win_check(board,mark):
     (board[7] == mark and board[5] == mark and board[3] == mark) or
     (board[9] == mark and board[5] == mark and board[1] == mark))
 
-import random
 def choose_first():
     if random.randint(0,1) == 0:
         return 'Player 1'
@@ -94,7 +93,8 @@ def replay():
     return raw_input('New round?').lower().startswith('y')
 
 print ("Welcome to TRES EN RAYA!")
-# to continually run the game until something is False:
+
+# continually runs the game until something is False:
 # bellow is the actual "motor" of the game, a big while loop!
 while True:
     
@@ -105,9 +105,8 @@ while True:
     print(turn + 'will go first!')
     # game_on will be False if its a tie or someone won
     game_on = True
-    # 
     while game_on:
-        #
+
         if turn == "Player 1":
             # bellow will print board which is the empty list [' ']*10
             display_board(theBoard)
@@ -155,8 +154,8 @@ while True:
         break
 ```
 
-## Future projects
+What's next? Maybe hangman! However, I don't think it's worth developing any games using Python. C# is the language for that!
 
-I want to develop a Python program with a nice GUI that inputs data obtained from the lab and automatically checks what statistical analysis can be done (using R within it) outputing a user-specified graph. If you are interested in collaborating let me know in the comments and I will include you in my github repo once I get it started!
+Be sure to check out my [Github profile](https://github.com/nickpettican) for more on code.
 
-
+Gracias <i class="fa fa-hand-peace-o"></i>!

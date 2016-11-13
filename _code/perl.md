@@ -1,12 +1,12 @@
 ---
 title: "My Perl scripts"
-excerpt: "Just some perl I developed to analyse biological data."
+excerpt: "Just some Perl I developed to analyse Biological Data."
 header:
   teaser: perl.jpg
 sidebar:
   - title: "My Perl scripts"
     image: perl.jpg
-    text: "Just some perl I developed to analyse biological data."
+    text: "Just some Perl I developed to analyse Biological Data."
 comments: true
 ---
 
@@ -306,5 +306,5 @@ foreach $line (@lines) {
 exit;
 ```
 
-Feel free to comment and use the scripts. They could be highly improved, however I will not be working on them anymore as I have moved on to Python.
+Feel free to comment and use the scripts. They could be highly improved, however I will not be working on them anymore as I have moved on to Python <i class="fa fa-sign-out"></i>.
 

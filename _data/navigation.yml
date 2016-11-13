@@ -9,8 +9,8 @@ main:
   - title: "Business"
     url: /business/
 
-  - title: "Personal"
-    url: /personal/
+  - title: "Thoughts"
+    url: /thoughts/
 
   - title: "Posts"
     url: /year-archive/
@@ -20,3 +20,13 @@ main:
 
   - title: "About"
     url: /about/
+
+science:
+  - title: "Science Communication"
+    children:
+      - title: "Why is it important?"
+
+tech:
+  - title: "Tech Tips"
+    children:
+      - title: "Install Linux on Windows"

@@ -7,9 +7,9 @@ header:
   overlay_filter: "0.5"
   overlay_image: science_icons/science_communication.jpg
   caption: "Image credit: **[Nicolas Pettican Perez](http://nicolaspettican.com)**"
-  teaser: science_icons/pc_DNA.jpg
+  teaser: science_icons/bioinformatics.png
 intro:
-  - excerpt: "Illustrations used for my animations for science communication. Created by using Adobe Illustrator."
+  - excerpt: "Illustrations used for my animations for science communication, created in Illustrator. I must apologise for the extreme watermarking, I'll get it sorted soon!"
 feature_row:
   - image_path: science_icons/beaker.jpg
     alt: "beaker"
@@ -52,8 +52,3 @@ feature_row3:
 </figure>
 </center>
 
-<!--<center>
-<figure style="width: 100%">
-  <img src="{{ site.url }}/images/science_icons/linkedin_background.png" alt="" align="middle">
-</figure>
-</center>-->

@@ -9,12 +9,12 @@
 locale                   : "en-UK"
 title                    : "PettiBlog"
 title_separator          : "-"
-name                     : "Nicolas Pettican Perez"
-description              : "A place where I can talk about science and society and post some of my creations and projects."
-url                      : "http://www.pettiblog.com"
+name                     : "Nicolas Pettican"
+description              : "I'm nerdy at heart"
+url                      : #"http://www.pettiblog.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : /images/author.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -39,6 +39,21 @@ collections:
   code:
     output: true
   #  permalink: /:code/:path/
+
+# Dynamic Text on the Header
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 6000
+lines: # add HTML Tags in the Text
+  - text: "Blogging like a hacker"
+  - text: "Did you know..."
+  - text: "Just science and tech stuff"
+  - text: "Cheese and crackers please"
 
 defaults:
   # _posts
@@ -98,7 +113,7 @@ defaults:
       share: true
 
 # SEO Related
-google_site_verification :
+google_site_verification : # this is in html
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -141,9 +156,9 @@ google_ad_slot           :
 author:
   name             : "Nicolas Pettican"
   avatar           : "guy_white.gif"
-  bio              : "Evil, artistic and bilingual data and life scientist (a.k.a. Nikipedia) who can lift, code, get things done and make you laugh!"
-  location         : "Manchester, UK"
-  email            : "nicolaspettican@gmail.com"
+  bio              : "Evil Scientist | Healthcare Communicator | Programmer | Coffee Drinker | Data Analyst | Spanglish"
+  location         : #"Manchester, UK"
+  email            : #"nicolaspettican@gmail.com"
   url              : #"http://www.nicolaspettican.com"
   bitbucket        :
   codepen          :
