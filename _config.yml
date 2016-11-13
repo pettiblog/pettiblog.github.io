@@ -11,7 +11,7 @@ title                    : "PettiBlog"
 title_separator          : "-"
 name                     : "Nicolas Pettican"
 description              : "I'm nerdy at heart"
-url                      : #"http://www.pettiblog.com"
+url                      : "http://www.pettiblog.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : /images/author.png"
